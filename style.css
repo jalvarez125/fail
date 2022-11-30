@@ -1,0 +1,62 @@
+body {
+    padding: 5rem 10em;
+}
+
+li {
+    line-height: 2rem;
+}
+
+.failed {
+    color: red;
+    font-size: 40px;
+    border: 6px solid red;
+    border-radius: 10px;
+    padding: 8px 60px; 
+    position: abosulute;
+    transform: rotate(45deg) translate(-200px, -250px);
+    text-shadow: 4x 1x 6x rgba(0,0,0,0.6)
+}
+
+
+div {
+    width: 300px;
+    height 100px;
+    background-color: #333;
+    border: 1px solid black;
+    color: white;
+    text-align:center;
+}
+
+#myDiv {
+    transform: rotateX(0deg);
+    transition-duration: 2;
+}
+
+#myDiv:hover {
+    transform: rotateX(180deg);
+}
+
+#myDiv2 {
+    transform: rotateY(0deg);
+    transition-duration: 2s;
+}
+
+#myDiv3 {
+    transform: rotateZ(0deg);
+    transition-duration: 2s;
+}
+
+#myDiv3:hover {
+    transform: rotateZ(180deg);
+}
+
+/* --------------------------------*/
+#nav {
+    text-decoration: none;
+    background-color: lightgray;
+    border: 2px solid gray;
+    color: darkolivegreen;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 25px;
+}
