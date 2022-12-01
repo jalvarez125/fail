@@ -28,25 +28,30 @@ div{
 
 #myDiv{
     transform: rotateX(0deg);
-    transition-duration: 2s; 
+    transition: background-color 2s, color 4s; 
 }
 
 #myDiv:hover{
+    transform: rotateX(180deg);
+    background-color: teal;
+    color: white;
     transform: rotateX(180deg);
 }
 
 #myDiv2{
     transform: rotateY(0deg);
-    transition-duration: 2s; 
+    transition: transform 5s;
+    transition-timing-function: ease-in;
 }
 
 #myDiv2:hover{
-    transform: rotateY(180deg);
+    transform: translate(500px, 0px);
 }
 
 #myDiv3{
     transform: rotateZ(0deg);
     transition-duration: 2s; 
+    transition-delay: 3s;
 }
 
 #myDiv3:hover{
